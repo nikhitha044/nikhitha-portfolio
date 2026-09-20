@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="nj-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a1020"/>
+      <stop offset="100%" stop-color="#050b18"/>
+    </linearGradient>
+    <linearGradient id="nj-text" x1="6" y1="14" x2="58" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#nj-bg)"/>
+  <rect width="64" height="64" rx="16" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text
+    x="32"
+    y="34"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="Inter, system-ui, -apple-system, sans-serif"
+    font-size="26"
+    font-weight="700"
+    letter-spacing="-1"
+    fill="url(#nj-text)"
+  >NJ</text>
+</svg>
