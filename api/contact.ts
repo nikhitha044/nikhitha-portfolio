@@ -141,7 +141,7 @@ export default async function handler(req: VercelLikeRequest, res: VercelLikeRes
     const { error } = await resend.emails.send({
       from: "Portfolio Contact Form <onboarding@resend.dev>",
       to: [toEmail],
-      reply_to: email,
+      replyTo: email,
       subject: `[Portfolio Contact] ${subject}`,
       html: `
         <p><strong>Name:</strong> ${escapeHtml(name)}</p>
